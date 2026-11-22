@@ -9,7 +9,9 @@
   "author": "Kamarthi Meena",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "demo": "npx playwright test tests/demo/mytest.spec.ts --headed"
+  },
   "devDependencies": {
     "@playwright/test": "^1.65.1",
     "@types/node": "^26.6.6"
